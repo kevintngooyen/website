@@ -1,0 +1,34 @@
+@font-face {
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: title;
+    font-weight: bold;
+}
+
+.home {
+    background-color:#303030;
+    padding: 5%;
+}
+
+.major {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infotitle {
+    font-family: title;
+    color: white;
+    font-size: 90px;
+}
+
+.infodescription {
+    font-family: title;
+    color: white;
+    font-size: 50px;
+}
+
+.infodescription2 {
+    font-family: title;
+    color: #303030;
+    font-size: 50px;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    src: url(../fonts/ZillaSlab-Regular.ttf);
+    font-family: font1;
+    font-weight: bold;
+}
+
+.home {
+    background-color:#303030;
+    padding: 5%;
+}
+
+.text {
+    font-family: font1;
+    color: white;
+    size: 60px;
+}

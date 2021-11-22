@@ -1,0 +1,67 @@
+@font-face {
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+    font-family: roboto;
+    font-weight: normal;
+}
+
+.navigation {
+    background-color:#303030;
+    
+}
+
+
+.navlinkHome {
+    color:#8A8A8A;
+    font-family: roboto;
+    font-size: 30px;
+    float: right;
+}
+.navlinkHome:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinkAbout{
+    color: #6A84A8;
+    font-family: roboto;
+    font-size: 30px;
+    float: right;
+}
+.navlinkAbout:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navlinkProjects{
+    color: #8BBA7A;
+    font-family: roboto;
+    font-size: 30px;
+    float: right;
+}
+.navlinkProjects:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navlinkResume {
+    color : #AA76BF;
+    font-family: roboto;
+    font-size: 30px;
+    float: right;
+}
+.navlinkResume:hover {
+    color :white;
+    text-decoration: none;
+}
+
+.navlinkSnapshots {
+    color : #C19C7E;
+    font-family: roboto;
+    font-size: 30px;
+    float: right;
+}
+.navlinkSnapshots:hover {
+    color : white;
+    text-decoration: none;
+}
