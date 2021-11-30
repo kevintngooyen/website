@@ -24,4 +24,35 @@
     font-weight: 550;
     letter-spacing: 1.5px;
     padding-bottom: 3%;
+    text-align: center;
+}
+
+.text1{
+    font-family: font;
+    color: white;
+    font-size: 150%;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.row1{
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+
+.topright{
+    padding-left: 15%;
+}
+
+.image2{
+    padding-left: 5%;
+}
+
+.bottomright{
+    padding-left: 15%;
 }

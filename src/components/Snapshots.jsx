@@ -8,46 +8,55 @@ import retreat from "../images/picture3.png"
 function Snapshots() {
   return (
     <div className={styles.home}>
-      <div className={styles.right}>
+
+      <div className={styles.row1}>
+        <div className={styles.topleft}>
             <img
              class={styles.resume}
              src={cambodia}
              alt=""
              />
-          </div>
           <p class={styles.text}>
             My Cambodian students.
           </p>
-          <div className={styles.right}>
+          </div>
+
+          <div className={styles.topright}>
             <img
-             class={styles.resume}
+             class={styles.image2}
              src={leaders}
              alt=""
              />
-          </div>
-          <p class={styles.text}>
-          Me and other volunteers taking our students on a trip around the city. 
+          <p class={styles.text1}>
+          Volunteers and I taking our students around the city. 
           </p>
-          <div className={styles.right}>
+          </div>
+          </div>
+
+        <div className={styles.row2}>
+          <div className={styles.bottomleft}>
             <img
              class={styles.resume}
              src={something}
              alt=""
              />
-          </div>
           <p class={styles.text}>
-          My senior class winning an all grade competition. 
+          My senior class winning a competition. 
           </p>
-          <div className={styles.right}>
+          </div>
+
+          <div className={styles.bottomright}>
             <img
              class={styles.resume}
              src={retreat}
              alt=""
              />
-          </div>
           <p class={styles.text}>
-          My retreat group that I lead and supported.
+          My retreat group that I lead.
           </p>
+          </div>
+          </div>
+
     </div>
   );
 }
