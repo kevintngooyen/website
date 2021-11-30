@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "../styles/Snapshots.module.css"
+import cambodia from "../images/picture1.png"
+import leaders from "../images/picture2.png"
+import something from "../images/picture4.png"
+import retreat from "../images/picture3.png"
 
 function Snapshots() {
   return (
@@ -7,17 +11,17 @@ function Snapshots() {
       <div className={styles.right}>
             <img
              class={styles.resume}
-             src="images/picture1.png"
+             src={cambodia}
              alt=""
              />
           </div>
           <p class={styles.text}>
-            All my Cambodia students.
+            My Cambodian students.
           </p>
           <div className={styles.right}>
             <img
              class={styles.resume}
-             src="images/picture2.png"
+             src={leaders}
              alt=""
              />
           </div>
@@ -27,22 +31,22 @@ function Snapshots() {
           <div className={styles.right}>
             <img
              class={styles.resume}
-             src="images/picture3.png"
+             src={something}
              alt=""
              />
           </div>
           <p class={styles.text}>
-          My highschool senior class winning an all grade competition. 
+          My senior class winning an all grade competition. 
           </p>
           <div className={styles.right}>
             <img
              class={styles.resume}
-             src="images/picture4.png"
+             src={retreat}
              alt=""
              />
           </div>
           <p class={styles.text}>
-          My retreat group that I lead and supporting during the retreat. 
+          My retreat group that I lead and supported.
           </p>
     </div>
   );

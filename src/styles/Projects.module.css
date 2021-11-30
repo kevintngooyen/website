@@ -5,9 +5,9 @@
 
 .home {
     background-color:#303030;
-    padding: 10%;
+    padding-left: 15%;
     padding-top: 5%;
-
+    padding-bottom: 5%;
 
     background-image: url("../images/project.PNG");
     background-repeat: no-repeat;
@@ -19,14 +19,14 @@
 
 .major {
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: left;
 }
 
 .title {
     font-family: font;
     color: white;
-    size: 300px;
+    font-size: 250%;
     font-weight: 550;
     letter-spacing: 3px;
 }
@@ -34,12 +34,20 @@
 .text {
     font-family: font;
     color: white;
-    size: 150px;
+    font-size: 150%;
     font-weight: 550;
-    letter-spacing: 2px;
-    padding-bottom: 5%;
+    letter-spacing: 1.5px;
+    padding-bottom: 3%;
 }
 
-.right{
+.right1{
+    float: right;
+}
+
+.right2{
+    float: right;
+}
+
+.right3{
     float: right;
 }

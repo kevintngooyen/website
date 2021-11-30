@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/About.module.css"
+import profileImage from "../images/mypicture.png"
 
 function About() {
   return (
@@ -34,7 +35,7 @@ function About() {
         <div className={styles.right}>
             <img
               class={styles.mypicture}
-              src="images/mypicture.png"
+              src= {profileImage}
               alt=""
              />
           </div>

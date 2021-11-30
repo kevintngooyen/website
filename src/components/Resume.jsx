@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Resume.module.css"
+import resumePhoto from "../images/resumePhoto.png"
 
 function Resume() {
   return (
@@ -7,7 +8,7 @@ function Resume() {
       <div className={styles.center}>
             <img
              class={styles.resume}
-             src="images/resume.png"
+             src={resumePhoto}
              alt=""
              />
           </div>
