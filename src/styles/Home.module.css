@@ -6,10 +6,11 @@
 
 .home {
     background-color:#303030;
-    padding: 5%;
+    padding: 10%;
 }
 
 .major {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,11 +25,5 @@
 .infodescription {
     font-family: title;
     color: white;
-    font-size: 50px;
-}
-
-.infodescription2 {
-    font-family: title;
-    color: #303030;
     font-size: 50px;
 }
